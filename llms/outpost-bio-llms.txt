@@ -1,0 +1,21 @@
+# Outpost Bio
+
+> Outpost Bio builds frontier AI foundation models for the human microbiome. Its "lab-in-the-loop" platform pairs high-throughput wet-lab experiments with machine learning in a continuous cycle to predict how drugs and ingredients interact with microbial ecosystems, de-risking R&D decisions. Outpost Bio does not currently publish a public web API; its developer surface is the open-source Waypoint Python library and gated model/dataset checkpoints on the Hugging Face Hub.
+
+## Open source
+
+- [Waypoint (GitHub)](https://github.com/outpost-bio/waypoint): Python library and CLI for pretraining, benchmarking, fine-tuning, and embedding microbiome taxonomic-abundance foundation models (Apache-2.0).
+- [waypoint-bio (PyPI)](https://pypi.org/project/waypoint-bio/): `pip install waypoint-bio` — installs the `waypoint` CLI (pretrain / benchmark / finetune / embed / prepare-dataset).
+
+## Models & data
+
+- [Outpost Bio on Hugging Face](https://huggingface.co/outpost-bio): Waypoint foundation-model checkpoints (e.g. Waypoint-6m), the Atlas pretraining dataset, and the Compass benchmark suite (8 downstream tasks). These resources are gated and require an access request.
+
+## Company
+
+- [Website](https://www.outpost.bio)
+- [Perspectives (blog / research / news)](https://www.outpost.bio/perspectives)
+- [Privacy Policy](https://www.outpost.bio/privacy-policy)
+- [Careers](https://www.outpost.bio/career)
+- [LinkedIn](https://www.linkedin.com/company/outpost-bio/)
+- [Waypoint open-source Slack community](https://join.slack.com/t/outpostbio-waypoint/shared_invite/zt-3w6ivgtba-WJOCkdxiISxQpwVq9ZZxTA)

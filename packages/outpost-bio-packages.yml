@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+source: https://pypi.org/project/waypoint-bio/
+packages:
+- language: python
+  registry: pypi
+  name: waypoint-bio
+  version: 1.0.2
+  url: https://pypi.org/project/waypoint-bio/
+  install: pip install waypoint-bio
+  official: true
+  license: Apache-2.0
+  requires_python: ">=3.10"
+  repository: https://github.com/Outpost-Bio/waypoint
+  description: Microbiome foundation models — pretraining, benchmarking, and embedding utilities for Waypoint.

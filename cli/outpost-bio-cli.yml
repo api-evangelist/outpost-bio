@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/outpost-bio/waypoint
+name: waypoint
+summary: >-
+  Command-line tool shipped with the waypoint-bio Python package for pretraining,
+  benchmarking, fine-tuning, and embedding microbiome taxonomic-abundance foundation
+  models. Data and gated model checkpoints load from the Hugging Face Hub.
+package: waypoint-bio
+install:
+- method: pip
+  command: pip install waypoint-bio
+commands:
+- name: pretrain
+  description: Pretrain a GPT-2 style transformer on microbiome abundance data (Atlas dataset).
+- name: benchmark
+  description: Evaluate a model against the 8 downstream Compass tasks.
+- name: finetune
+  description: Adapt a pretrained checkpoint to a custom labeled dataset.
+- name: embed
+  description: Produce fixed-size embedding vectors from microbiome samples.
+- name: prepare-dataset
+  description: Convert abundance matrices (parquet/CSV taxa + relative-abundance) into Waypoint format.
+notes: >-
+  Atlas, Compass, and the published Waypoint checkpoints (e.g. outpost-bio/Waypoint-6m)
+  are gated on the Hugging Face Hub and require an access request.
