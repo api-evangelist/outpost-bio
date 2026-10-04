@@ -45,13 +45,13 @@ modified: '2026-07-20'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - Microbiome
 - Biotechnology
 - Life Sciences
 - Drug Discovery
-- Open-Source
+- Open Source
 tags_raw:
 - Company
 - Artificial Intelligence
@@ -62,6 +62,8 @@ tags_raw:
 - Life Sciences
 - Drug Discovery
 - Open Source
+- Machine-Learning
+- Open-Source
 image: https://framerusercontent.com/images/jXCgBJzYHj5J1kS9GRrNe7pA.png
 apis: []
 maintainers:
